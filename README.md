@@ -8,5 +8,7 @@ NOTE: you will be needing an internet connection for getting public ip address.
 
 
 if you want to run this from anywhere . just -
-copy the script { checkip } to /usr/bin by typing [ #cp checkip /usr/bin ]
+copy the script { checkip } to /usr/bin by typing [ #cp checkip /usr/local/bin ]
 and , run the command i.e checkip from anywhere you want.
+
+enjoy!
