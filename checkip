@@ -1,6 +1,7 @@
 #!/bin/bash
-echo "the public ip address is :"
+banner "checkip"
+echo "YOUR PUBLIC IP ADDRESS IS  :"
 dig +short myip.opendns.com @resolver1.opendns.com
-echo "the private ip address is :"
+echo "YOUR PRIVATE IP ADDRESS IS  :"
 ifconfig wlan0 |grep netmask | awk -F "inet " {'print $2'} | cut -d ' ' -f1
 
